@@ -1,10 +1,10 @@
-public class App{
+public class App {
     public static void main(String[] args) {
         // deafult constructor
         Student A = new Student();
         A.id = 1;
-        A.name= "Ayush";
-        A.nos=5;
+        A.name = "Ayush";
+        A.nos = 5;
         A.age = 16;
 
         System.out.println(A.id);
@@ -18,8 +18,8 @@ public class App{
 
         System.out.println("-------");
 
-        //parameterised constructor
-        Student B = new Student(2, "Bablu", 15,5);
+        // parameterised constructor
+        Student B = new Student(2, "Bablu", 15, 5);
 
         System.out.println(B.id);
         System.out.println(B.name);
@@ -32,7 +32,7 @@ public class App{
 
         System.out.println("-------");
 
-        //copy constructor
+        // copy constructor
         Student C = new Student(B);
 
         System.out.println(C.id);
