@@ -16,5 +16,13 @@ public class Car extends Vehicle {
         this.noOfDoors = noOfDoors;
         this.transmissionType = transmissionType;
 
+        // super() can also invoke the methods of immediate parent
+        // super.startEngine();
+        // super.stopEngine();
+
+    }
+
+    public void startAC() {
+        System.out.println("AC started of " + name);
     }
 }
