@@ -18,8 +18,5 @@ public class App {
         A.setAge(233);
         System.out.println(A.getAge());
 
-
-
-
     }
 }
