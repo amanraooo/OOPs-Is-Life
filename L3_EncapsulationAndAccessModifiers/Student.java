@@ -12,13 +12,22 @@ public class Student {
         return this.name;
     }
 
-    public int getId() {
-        return this.id;
+    public int getAge() {
+        return this.age;
     }
 
     // setters: we cannot update private data members's values without setters
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setAge(int age) {
+
+        // extra layer of authentication or validation
+        if (age < 100) {
+            this.age = age;
+        }
+        return;
     }
 
     public Student(int id, String name, int age, int nos) {

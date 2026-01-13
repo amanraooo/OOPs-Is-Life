@@ -6,12 +6,20 @@ public class App {
 
         // calling getter
         System.out.println(A.getName());
-        System.out.println(A.getId());
+        System.out.println(A.getAge());
 
         // calling setter
         A.setName("Rahul");
+        A.setAge(23);
 
         System.out.println(A.getName());
+        System.out.println(A.getAge());
+
+        A.setAge(233);
+        System.out.println(A.getAge());
+
+
+
 
     }
 }
