@@ -17,8 +17,8 @@ public class Student {
     }
 
     // setters: we cannot update private data members's values without setters
-    public void setName(String name){
-this.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Student(int id, String name, int age, int nos) {
