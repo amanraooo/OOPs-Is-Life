@@ -5,6 +5,8 @@ public class App {
         Student A = new Student(1, "Aman", 22, 5);
         System.out.println(A.getName());
         System.out.println(A.getId());
+        A.setName("Rahul");
+        System.out.println(A.getName());
 
 
     }
