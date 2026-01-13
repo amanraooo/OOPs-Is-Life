@@ -12,6 +12,10 @@ public class Student {
         return this.name;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     public Student(int id, String name, int age, int nos) {
 
         this.id = id;
