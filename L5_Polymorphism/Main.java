@@ -10,5 +10,8 @@ public class Main {
         Circle cir = new Circle();
         cir.draw();
 
+        Rectangle rect = new Rectangle();
+        rect.draw();
+
     }
 }
