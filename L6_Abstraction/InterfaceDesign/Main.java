@@ -4,9 +4,22 @@ interface Bird {
     void fly();
 
     void eat();
+
+    // interface can have deafult non-abstract methods
+    default void walk() {
+        System.out.println("Birds do walk");
+    }
+
 }
 
-class Sparrow implements Bird {
+// implementing multiple inheritence
+// in java a class can not extends from multiple classes but can implements multiple interfaces
+interface Animal {
+    void isAnimal();
+
+}
+
+class Sparrow implements Bird, Animal {
 
     @Override
     public void eat() {
@@ -16,6 +29,11 @@ class Sparrow implements Bird {
     @Override
     public void fly() {
         System.out.println("Sparrow flying");
+    }
+
+    @Override
+    public void isAnimal() {
+        System.out.println("Sparrow is animal");
     }
 }
 
@@ -40,5 +58,11 @@ public class Main {
     public static void doBirdStuff(Bird b) {
         b.eat();
         b.fly();
+
+        // calling isAnimal()
+        if (b instanceof Animal) {
+            Animal a = (Animal) b;
+            a.isAnimal();
+        }
     }
 }
