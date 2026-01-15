@@ -7,7 +7,7 @@ abstract class Bird {
 }
 
 class Sparrow extends Bird {
-    
+
     @Override    
     public void eat() {
         System.out.println("Sparrow eating");
@@ -40,6 +40,17 @@ public class Main {
         b = new Crow();
         b.eat();
         b.fly();
+
+        //upcasting
+        // doBirdStuff(new Sparrow());
+        // doBirdStuff(new Crow());
+
     }
+
+    // upcasting
+    // public static void doBirdStuff(Bird b){ //means: accept any object which IS-A Bird
+    //     b.eat();
+    //     b.fly();
+    // }
 
 }
