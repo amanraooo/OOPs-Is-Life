@@ -1,9 +1,11 @@
 package L6_Abstraction.InterfaceDesign;
 
-interface Bird{
+interface Bird {
     void fly();
+
     void eat();
 }
+
 class Sparrow implements Bird {
 
     @Override
@@ -34,7 +36,8 @@ public class Main {
         doBirdStuff(new Sparrow());
         doBirdStuff(new Crow());
     }
-    public static void doBirdStuff(Bird b){
+
+    public static void doBirdStuff(Bird b) {
         b.eat();
         b.fly();
     }
