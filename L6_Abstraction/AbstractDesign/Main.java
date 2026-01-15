@@ -7,22 +7,25 @@ abstract class Bird {
 }
 
 class Sparrow extends Bird {
-
+    
+    @Override    
     public void eat() {
         System.out.println("Sparrow eating");
     }
 
+    @Override    
     public void fly() {
         System.out.println("Sparrow flying");
     }
 }
 
 class Crow extends Bird {
-
+    @Override    
     public void eat() {
         System.out.println("Crow eating");
     }
 
+    @Override
     public void fly() {
         System.out.println("Crow flying");
     }
