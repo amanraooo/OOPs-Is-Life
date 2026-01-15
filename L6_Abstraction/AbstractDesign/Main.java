@@ -8,19 +8,19 @@ abstract class Bird {
 
 class Sparrow extends Bird {
 
-    @Override    
+    @Override
     public void eat() {
         System.out.println("Sparrow eating");
     }
 
-    @Override    
+    @Override
     public void fly() {
         System.out.println("Sparrow flying");
     }
 }
 
 class Crow extends Bird {
-    @Override    
+    @Override
     public void eat() {
         System.out.println("Crow eating");
     }
@@ -41,7 +41,7 @@ public class Main {
         b.eat();
         b.fly();
 
-        //upcasting
+        // upcasting
         // doBirdStuff(new Sparrow());
         // doBirdStuff(new Crow());
 
@@ -49,8 +49,8 @@ public class Main {
 
     // upcasting
     // public static void doBirdStuff(Bird b){ //means: accept any object which IS-A Bird
-    //     b.eat();
-    //     b.fly();
+    // b.eat();
+    // b.fly();
     // }
 
 }
