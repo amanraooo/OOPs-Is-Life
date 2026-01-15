@@ -160,6 +160,7 @@ public class TypesOfInheritance {
         // CEO ceo = new CEO("Devi Lal", 404);
         // ceo.leadCompany();
         //
+        
         // // // Hybrid Inheritance
         BusinessDevelopmentManager bdManager = new BusinessDevelopmentManager("SamWilson", 606);
         bdManager.coordinateBusinessDevelopment();
