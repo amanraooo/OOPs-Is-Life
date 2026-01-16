@@ -112,5 +112,25 @@ public class Linkedlist {
         System.out.println("list5 " + list5);
         System.out.println(list5.lastIndexOf(2));
 
+        // addFirst : to add element at first index
+        LinkedList<Integer> L1 = new LinkedList<>();
+        L1.add(1);
+        L1.add(2);
+        System.out.println("L1 " + L1);
+        L1.addFirst(0);
+        System.out.println("L1 " + L1);
+
+        // addLast : adds at last index
+        L1.addLast(3);
+        System.out.println("L1 " + L1);
+
+        // remove first : removes from 1st index
+        L1.removeFirst();
+        System.out.println("L1 " + L1);
+
+        // remove last : removes from last index
+        L1.removeLast();
+        System.out.println("L1 " + L1);
+
     }
 }
