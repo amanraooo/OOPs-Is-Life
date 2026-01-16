@@ -132,5 +132,19 @@ public class Linkedlist {
         L1.removeLast();
         System.out.println("L1 " + L1);
 
+        // getFirst: fetch 1st element
+        System.out.println(L1.getFirst());
+
+        // getLast: fetch last element
+        System.out.println(L1.getLast());
+
+        // peek: returns head of linkedlist
+        System.out.println(L1.peek());
+
+        // poll: return and removes 1st element from LL
+        System.out.println("L1 " + L1);
+        System.out.println("polling " + L1.poll());
+        System.out.println("L1 " + L1);
+
     }
 }
