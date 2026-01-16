@@ -1,6 +1,7 @@
 package L7_Java_Collection_Framework_1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class Arraylist {
@@ -79,6 +80,18 @@ public class Arraylist {
         // contains(): checks avilability
         System.out.println(list3.contains(100));
         System.out.println(list3.contains(12345));
+
+        // sort:sorts the list
+        ArrayList<Integer> list4 = new ArrayList<>();
+
+        list4.add(101);
+        list4.add(2);
+        list4.add(0);
+        list4.add(33);
+        System.out.println("list4 " + list4);
+
+        Collections.sort(list4);
+        System.out.println("list4 " + list4);
 
     }
 }
