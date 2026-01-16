@@ -107,5 +107,7 @@ public class Arraylist {
         System.out.println(marksList.isEmpty());
         System.out.println(list4.isEmpty());
 
+        // indexOf(): fetch the index of a specific element
+        System.out.println(list5.indexOf(2));
     }
 }
