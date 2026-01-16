@@ -100,5 +100,17 @@ public class Linkedlist {
         // indexOf(): fetch the index of a specific element
         System.out.println("list1 " + list1);
         System.out.println(list1.indexOf(2));
+
+        // lastIndexOf : to find last occurannce index of a element
+        LinkedList<Integer> list5 = new LinkedList<>();
+        list5.add(10);
+        list5.add(2);
+        list5.add(2);
+        list5.add(33);
+        list5.add(2);
+        list5.add(7);
+        System.out.println("list5 " + list5);
+        System.out.println(list5.lastIndexOf(2));
+
     }
 }
