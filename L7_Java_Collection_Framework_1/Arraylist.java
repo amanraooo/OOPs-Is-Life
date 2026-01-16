@@ -54,5 +54,31 @@ public class Arraylist {
             System.out.println("Element "+ iterator.next());
         }
 
+        //get:fetch element
+        ArrayList<Integer> list3 = new ArrayList<>(); 
+
+        list3.add(101);
+        list3.add(201);
+        list3.add(301);
+        list3.add(401);
+        System.out.println("list3 "+list3);
+
+        System.out.println("list3 get "+list3.get(3));
+
+        //set: update an element on index
+        System.out.println("list3 "+list3);
+        list3.set(0, 100);
+        System.out.println("list3 "+list3);
+
+        //toArray: converts a collection into array
+        Object[] arr= list3.toArray();
+        for (Object obj : arr) {
+            System.out.println("toArray "+obj);
+        }
+
+        //contains(): checks avilability
+        System.out.println(list3.contains(100));
+        System.out.println(list3.contains(12345));
+
     }
 }
