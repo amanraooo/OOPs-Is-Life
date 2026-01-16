@@ -91,7 +91,21 @@ public class Arraylist {
         System.out.println("list4 " + list4);
 
         Collections.sort(list4);
-        System.out.println("list4 " + list4);
+        System.out.println("list4 sort " + list4);
+
+        // clone : create a new arraylist with same element ,size and capacity
+        // only do shallow copy
+        ArrayList<Integer> list5 = (ArrayList<Integer>) list4.clone();
+        System.out.println("list5 " + list5);
+
+        // ensureCapacity(): can define minimum size of arrayList
+        ArrayList<Integer> marksList = new ArrayList<>();
+
+        marksList.ensureCapacity(100);
+
+        // isEmpty(): checks if list is empty
+        System.out.println(marksList.isEmpty());
+        System.out.println(list4.isEmpty());
 
     }
 }
