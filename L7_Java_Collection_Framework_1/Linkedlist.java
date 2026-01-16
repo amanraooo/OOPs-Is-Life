@@ -7,10 +7,9 @@ import java.util.List;
 
 public class Linkedlist {
     public static void main(String[] args) {
-        //most of the methods we used for ArrayList also works for LinkedList
-         LinkedList<Integer> list1 = new LinkedList<>();
+        // most of the methods we used for ArrayList also works for LinkedList
+        LinkedList<Integer> list1 = new LinkedList<>();
 
-        
         // add
         list1.add(1);
         list1.add(2);
@@ -91,11 +90,9 @@ public class Linkedlist {
         Collections.sort(list4);
         System.out.println("list4 sort " + list4);
 
-        
         // ensureCapacity(): can define minimum size of arrayList
         LinkedList<Integer> marksList = new LinkedList<>();
 
-        
         // isEmpty(): checks if list is empty
         System.out.println(marksList.isEmpty());
         System.out.println(list4.isEmpty());
