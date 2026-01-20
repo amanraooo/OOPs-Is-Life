@@ -36,7 +36,11 @@ public class HashSetBasics {
         //retainAll: only keep the intersection elements
         set1.retainAll(set2);
         System.out.println("set1 retainAll "+set1);
+
+        //contains all : does all the elements form one set presents in another
         System.out.println("set2 "+set2);
+        System.out.println(set1.containsAll(set2));
+        System.out.println(set2.containsAll(set1));
 
     }
 }
