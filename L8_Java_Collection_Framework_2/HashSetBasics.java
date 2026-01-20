@@ -7,6 +7,10 @@ import java.util.TreeSet;
 
 public class HashSetBasics {
     public static void main(String[] args) {
+        // HashedSet -> O(1)
+        // LinkedHashedSet -> O(n)
+        // TreeSet -> BST -> O(logn)
+        
          Set<Integer> st = new HashSet<>();
         st.add(40);
         st.add(10);
