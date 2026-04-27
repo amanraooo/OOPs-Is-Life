@@ -16,7 +16,7 @@ public class BankAccount {
 			if(bal>amount){
 				Thread.sleep(2000);
 				bal=bal-amount;
-				System.out.println("withdrawn: "+ amount+ "remaining: "+ bal);
+				System.out.println("withdrawn: "+ amount+ " remaining: "+ bal);
 			}
 			else {
 				System.out.println("insufficient balance");
