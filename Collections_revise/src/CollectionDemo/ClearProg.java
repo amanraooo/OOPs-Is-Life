@@ -20,6 +20,7 @@ public class ClearProg {
 		}
 
 		list.clear();
+
 		System.out.println("List is : "+list);
 		if(list.isEmpty())
 		{
