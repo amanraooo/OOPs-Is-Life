@@ -19,8 +19,5 @@ public class LinkedListDemo {
 		System.out.println("First element : "+first);
 		System.out.println("First element : "+last);
 
-
-
-
 	}
 }
