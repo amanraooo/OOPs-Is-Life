@@ -17,6 +17,5 @@ public class SetDemo {
 		set.add(20);
 		System.out.println(set);
 
-
 	}
 }
